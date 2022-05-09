@@ -19,7 +19,6 @@ public class GhostMove : MonoBehaviour
                                             waypoints[cur].position,
                                             speed);
 
-            //Debug.Log(waypoints[cur].position);
             GetComponent<Rigidbody2D>().MovePosition(p);
         }
         // Waypoint reached, select next one

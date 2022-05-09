@@ -11,7 +11,7 @@ public class Restart : MonoBehaviour
         if (Input.GetKeyDown("r"))
         { //If you press R
             ScoreShowing.scoreValue = 0;
-            SceneManager.LoadScene("SampleScene"); //Load scene called Game
+            SceneManager.LoadScene("SampleScene"); //Load scene called SampleScene
         }
     }
 }

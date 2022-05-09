@@ -8,7 +8,6 @@ public class PacmanMove : MonoBehaviour
     Vector2 dest = Vector2.zero;
     Vector2 _nextDir = Vector2.zero;
     Vector2 _dir = Vector2.zero;
-    // Start is called before the first frame update
 
     bool valid(Vector2 dir)
     {
@@ -24,7 +23,6 @@ public class PacmanMove : MonoBehaviour
         dest = transform.position;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         // move closer to destination
